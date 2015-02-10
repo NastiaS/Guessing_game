@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+	 <meta charset='utf-8'>
+    <title>Guessing game</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster|Open+Sans:600italic,700italic,400,600' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <header>
+        <h1>Guessing Game</h1>
+        <h2>Make your guess</h2>
+    </header>
+
+    <div id="wrapper">
+
+	     <section id="primary">
+	         <a href="comp.jpg">
+              <img class ="resize" src="comp.jpg" alt="">
+          </a>
+          <div id="button">
+            <p><button type="button" onclick='alert("Alright! I made my selection! Guess it!")'>Ready to start? Click here!</button></p>
+          </div>
+      </section>
+
+      <section id="secondary">
+          <textarea name="styled-textarea" id="styled">numbers 1-100</textarea>
+          <div id = "button1">
+            <button type="button" onclick='alert("Icy cold. Try again")' id="changed">Submit your guess!</button>
+          </div>
+
+      <div id="button2_3">
+        <button type="button" onclick='alert("No, that is not what I thought of. Try again")'>Play again!</button>
+        <button type="button" onclick='alert("Okay! Here we go")' >I want a hint!</button>
+      </div>
+      </section>
+
+    </div>
+
+  </body>
+
+</html>
